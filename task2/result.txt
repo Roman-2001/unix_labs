@@ -1,0 +1,15 @@
+gcc locker.c -o locker
+File test.lck was deleted before finish program
+removing test
+File test1.lck was occupied other process
+occupied .lck-file test
+Success tasks : 10
+task1 : 32
+task2 : 29
+task3 : 36
+task4 : 31
+task6 : 33
+task7 : 36
+task8 : 24
+task9 : 27
+task10 : 25
