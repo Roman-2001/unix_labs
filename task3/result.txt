@@ -1,0 +1,35 @@
+---RUNME started... checking 3 processes---
+roman      56945   56944  0 23:17 ?        00:00:00 /bin/sleep 5
+roman      56947   56944  0 23:17 ?        00:00:00 /bin/sleep 10
+roman      56948   56944  0 23:17 ?        00:00:00 /bin/sleep 15
+
+---One process has been killed... checking he's resurrected---
+roman      56947   56944  0 23:17 ?        00:00:00 /bin/sleep 10
+roman      56948   56944  0 23:17 ?        00:00:00 /bin/sleep 15
+roman      56953   56944  0 23:17 ?        00:00:00 /bin/sleep 5
+
+---SIGHUP has been sent... checking 1 process---
+roman      56967   56944  0 23:17 ?        00:00:00 /bin/sleep 7
+
+---LOGS---
+Start myinit
+Task with number 0 started /bin/sleep with pid: 56945
+Task with number 1 started /bin/sleep with pid: 56947
+Task with number 2 started /bin/sleep with pid: 56948
+Task with number 0 finished with status: 15
+Task with number 0 started /bin/sleep with pid: 56953
+Task with number 0 finished with status: 0
+Task with number 0 started /bin/sleep with pid: 56959
+Task with number 1 finished with status: 0
+Task with number 1 started /bin/sleep with pid: 56962
+Task with number 0 finished with status: 0
+Task with number 0 started /bin/sleep with pid: 56963
+Task with number 2 finished with status: 0
+Task with number 2 started /bin/sleep with pid: 56964
+Task with number 0 finished with status: 0
+Task with number 0 started /bin/sleep with pid: 56965
+Task with number 0 killed
+Task with number 1 killed
+Task with number 2 killed
+Restart myinit
+Task with number 0 started /bin/sleep with pid: 56967
