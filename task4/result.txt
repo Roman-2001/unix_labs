@@ -1,0 +1,168 @@
+First task:
+Start 100 clients
+100 clients finished
+Check zero state
+recv number: 0; send state: 0
+
+Second task:
+Run 100 clients twice
+Start 100 clients
+100 clients finished
+Check zero state
+recv number: 0; send state: 0
+Start 100 clients
+100 clients finished
+Check zero state
+recv number: 0; send state: 0
+Check descriptor num and sbrk()
+First accept:
+Accept client socket 6. Current sbrk() = -1098305536
+Last two accepts:
+Accept client socket 105. Current sbrk() = -1098305536
+Accept client socket 6. Current sbrk() = -1098305536
+
+Third task:
+Test clients: 10 delay: 0
+Client time: 000000
+Total time: 0
+Efficiency: 0
+Test clients: 10 delay: 0.2
+Client time: 6
+Total time: 6
+Efficiency: 0
+Test clients: 10 delay: 0.4
+Client time: 12
+Total time: 12
+Efficiency: 0
+Test clients: 10 delay: 0.6
+Client time: 18
+Total time: 18
+Efficiency: 0
+Test clients: 10 delay: 0.8
+Client time: 24
+Total time: 24
+Efficiency: 0
+Test clients: 10 delay: 1
+Client time: 30
+Total time: 30
+Efficiency: 0
+Test clients: 20 delay: 0
+Client time: 000000
+Total time: 0
+Efficiency: 0
+Test clients: 20 delay: 0.2
+Client time: 6
+Total time: 7
+Efficiency: 1
+Test clients: 20 delay: 0.4
+Client time: 12
+Total time: 12
+Efficiency: 0
+Test clients: 20 delay: 0.6
+Client time: 18
+Total time: 18
+Efficiency: 0
+Test clients: 20 delay: 0.8
+Client time: 24
+Total time: 24
+Efficiency: 0
+Test clients: 20 delay: 1
+Client time: 30
+Total time: 30
+Efficiency: 0
+Test clients: 40 delay: 0
+Client time: 000000
+Total time: 0
+Efficiency: 0
+Test clients: 40 delay: 0.2
+Client time: 6
+Total time: 6
+Efficiency: 0
+Test clients: 40 delay: 0.4
+Client time: 12
+Total time: 12
+Efficiency: 0
+Test clients: 40 delay: 0.6
+Client time: 18
+Total time: 18
+Efficiency: 0
+Test clients: 40 delay: 0.8
+Client time: 24
+Total time: 24
+Efficiency: 0
+Test clients: 40 delay: 1
+Client time: 30
+Total time: 30
+Efficiency: 0
+Test clients: 60 delay: 0
+Client time: 1
+Total time: 1
+Efficiency: 0
+Test clients: 60 delay: 0.2
+Client time: 6
+Total time: 6
+Efficiency: 0
+Test clients: 60 delay: 0.4
+Client time: 12
+Total time: 12
+Efficiency: 0
+Test clients: 60 delay: 0.6
+Client time: 18
+Total time: 18
+Efficiency: 0
+Test clients: 60 delay: 0.8
+Client time: 24
+Total time: 24
+Efficiency: 0
+Test clients: 60 delay: 1
+Client time: 30
+Total time: 30
+Efficiency: 0
+Test clients: 80 delay: 0
+Client time: 000000
+Total time: 0
+Efficiency: 0
+Test clients: 80 delay: 0.2
+Client time: 6
+Total time: 6
+Efficiency: 0
+Test clients: 80 delay: 0.4
+Client time: 12
+Total time: 12
+Efficiency: 0
+Test clients: 80 delay: 0.6
+Client time: 18
+Total time: 18
+Efficiency: 0
+Test clients: 80 delay: 0.8
+Client time: 24
+Total time: 24
+Efficiency: 0
+Test clients: 80 delay: 1
+Client time: 30
+Total time: 30
+Efficiency: 0
+Test clients: 100 delay: 0
+Client time: 1
+Total time: 1
+Efficiency: 0
+Test clients: 100 delay: 0.2
+Client time: 6
+Total time: 6
+Efficiency: 0
+Test clients: 100 delay: 0.4
+Client time: 12
+Total time: 12
+Efficiency: 0
+Test clients: 100 delay: 0.6
+Client time: 18
+Total time: 18
+Efficiency: 0
+Test clients: 100 delay: 0.8
+Client time: 24
+Total time: 24
+Efficiency: 0
+Test clients: 100 delay: 1
+Client time: 30
+Total time: 30
+Efficiency: 0
